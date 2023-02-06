@@ -1,0 +1,156 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 70px;
+
+}
+ul{
+    display: flex;
+    gap: 40px;
+    list-style-type: none;
+
+}
+a{
+    text-decoration: none;
+    color:#646264;
+    
+}
+a:hover{
+    color: #7209b7;
+}
+.purple-font{
+    color:#7209b7 ;
+}
+.pink-font{
+    color:#f72585 ;
+}
+#hero{
+    margin: 20px 0;
+    display: flex;
+    gap: 10%;
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-basis: 35%;
+    padding: 0 70px;
+    margin-top: 50px;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif
+}
+.para-home{
+    color: #646264;
+    font-size: small;
+}
+.circle{
+    width: 350px;
+    height: 350px;
+    border: 2px solid #f72585;
+    border-radius: 50%;
+    background-image: linear-gradient(#f566a6, #f05a9d)
+}
+img{
+    border-radius: 50%;
+    position: relative;
+    top: 80px;
+    left: 10px;
+} 
+
+/* img{
+    border-radius:50% ;
+    position: relative;
+    top: 80px;
+    left: 30px;
+} */
+
+
+#hire{
+    border: #912dd4;
+    border-radius: 15px;
+    background: #912dd4;
+    color: white;
+    padding: 10px  25px;
+    
+}
+#resume-home, .card > button{
+    border: none;
+    background: none;
+    color: #912dd4;
+    margin-left: 20px;
+}
+#about-me{
+    background: #f72585;
+    color: aliceblue;
+    margin: 20px 0;
+    display: flex;
+    gap: 15%;
+    padding: 70px;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-basis: 50%;
+   
+}
+#resume-about, .card-pink > button{
+    border: none;
+    background: none;
+    color: aliceblue;
+}
+.para-about, .para-skills{
+    color: #e0dfe0;
+    font-size: small;
+}
+#skills{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.container{
+    display: flex;
+    gap: 20px;
+    
+}
+.card{
+    width: 200px;
+    height: 150px;
+    background: rgb(252, 255, 248);
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;  
+}
+.card-pink{
+    width: 200px;
+    height: 150px;
+    background: #f72585;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+}
+.card > h5{
+    color: #5e5d5e;
+}
+.card-pink > h5,footer > h6 {
+    color: #e0dfe0;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background: #f72585;
+    padding: 70px;
+} footer > h3{
+    color: aliceblue;
+}

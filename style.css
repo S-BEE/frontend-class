@@ -1,0 +1,58 @@
+
+        /* #mainBox{
+            width: 1000px;
+            height: 700px;
+            background: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        } */
+
+        .container{
+            
+            height: 800px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            border: 2px solid pink;
+
+        }
+
+        .card{
+            width: 200px;
+            height: 350px;
+            border: 2px solid black;
+            padding: 20px;
+            align-self: flex-start;
+            
+
+        }
+
+        .instaCard{
+            width: 200px;
+            height: 350px;
+            border: 2px solid black;
+            padding: 20px;
+            background: deeppink;
+            align-self: flex-end;
+        
+            
+            
+
+        }
+
+        h3{
+            b
+        }
+
+        button{
+            border-radius: 15px;
+            padding: 5px 25px;
+            background: black;
+            color: antiquewhite;
+            display: block;
+            width: 100%;
+            
+        }
+    
